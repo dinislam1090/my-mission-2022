@@ -1,0 +1,145 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Section 01*/
+
+.first-section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 3%;
+}
+.half-width img{
+    width: 80%;
+}
+.side-border {
+    border-left: 6px solid;
+    border-image: linear-gradient(rgb(119, 87, 0), rgb(36, 160, 77));
+    border-image-slice: 1;
+    font-size: 60px;
+    padding-left: 20px;
+}
+
+span{
+    color: chocolate;
+}
+.link-button{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.scroll-down{
+    margin-top: 80px;
+}
+.my-mission{
+    text-align: center;
+    font-size: 40px;
+}
+
+/*Section 02*/
+
+.section-two{
+    display: flex;
+}
+.mission-vision-goal-one{
+    width: 50%;
+    margin-right: 0%;
+    margin-left: 55px;
+    background-color: lavender;
+    padding: 30px 10px;
+    border-radius: 20px;
+    padding-left: 30px;
+}
+.mission-vision-goal-two{
+    width: 50%;
+    margin-right: 0%;
+    margin-left: 55px;
+    background-color: lightgray;
+    padding: 30px 10px;
+    border-radius: 20px;
+    padding-left: 30px;
+}
+.mission-vision-goal-three{
+    width: 50%;
+    margin-right: 55px;
+    margin-left: 55px;
+    background-color: lightsteelblue;
+    padding: 30px 10px;
+    border-radius: 20px;
+    padding-left: 30px;
+}
+.sec-two-image{
+    width: 40%;
+}
+
+/*Section 03*/
+
+.section-three{
+    display: flex;
+    background-image: url(images/shape-1\ \(Custom\)\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.sec-three-img{
+    width: 50%;
+    margin-right: 55px;
+    margin-left: 55px;
+    padding: 130px 0px;
+}
+.sec-three-body{
+    padding: 130px 0px;
+    padding-left: 30px;
+    padding-left: 0px;
+    padding-right: 90px;
+}
+
+/*Section 04*/
+
+.section-four{
+    display: flex;
+    background-image: url(images/shape-1\ \(Custom\).png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.sec-four-body{
+    width: 50%;
+    margin-left: 55px;
+    padding: 130px 0px;
+}
+.sec-four-img{
+    width: 50%;
+    padding-left: 150px;
+    padding-bottom: 100px;
+}
+
+/*Section 05*/
+
+.section-five{
+    display: flex;
+}
+
+.sec-five-img{
+    width: 50%;
+    margin-right: 55px;
+    margin-left: 55px;
+    padding: 130px 0px;
+}
+.sec-five-body{
+    padding: 130px 0px;
+    padding-left: 0px;
+    padding-right: 90px;
+
+}
+
+/*footer area*/
+.footer-dev{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 80px 0px;
+}
